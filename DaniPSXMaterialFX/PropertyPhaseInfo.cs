@@ -17,7 +17,7 @@ public class PropertyPhaseInfo
    string name;
    Action onPhaseProperty;
    float currentCurveTime;
-   MeshRenderer meshRenderer;
+   Renderer meshRenderer;
 
    public void Initialize(GameObject owner)
    {
