@@ -21,7 +21,7 @@ public class PropertyPhaseInfo
 
    public void Initialize(GameObject owner)
    {
-      meshRenderer = owner.GetComponent<MeshRenderer>();
+      meshRenderer = owner.GetComponent<Renderer>();
       switch (selectedProperty)
       {
          case SelectedProperty.geometryPrecision:
